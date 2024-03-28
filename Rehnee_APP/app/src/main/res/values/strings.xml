@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Rehnee</string>
+    <string name="navigation_drawer_open">Open negative drawer</string>
+    <string name="navigation_drawer_close">Close negative drawer</string>
+
+    <string name="type_1">屈膝抬腿</string>
+    <string name="type_2">直膝抬腿</string>
+    <string name="type_3">靠牆半蹲</string>
+
+    <string name="type_1_indication">1.請先將腳呈現90度進行校正\n2.將腳往上伸展到指定角度\n3.達到角度後回到原點\n建議:每組間隔30分鐘\n</string>
+    <string name="type_2_indication">1.請先將腳呈現90度進行校正\n2.將腳往上伸展到指定角度\n3.達到角度後回到原點\n建議:每組間隔30分鐘</string>
+    <string name="type_3_indication">1.請先將腳呈現90度進行校正\n2.將腳往上伸展到指定角度\n3.達到角度後回到原點\n建議:每組間隔30分鐘</string>
+</resources>

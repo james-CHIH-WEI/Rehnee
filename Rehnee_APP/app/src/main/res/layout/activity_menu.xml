@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/rehnee_round" />
+
+    <Button
+        android:id="@+id/Rehabilitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="50dp"
+
+        android:stateListAnimator="@null"
+        android:text="開始\n復健"
+        android:textColor="#46596e"
+        android:textSize="25dp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/Rehabilitation"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="90dp"
+        android:stateListAnimator="@null"
+        android:text="  聊天室"
+        android:textColor="#46596e"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rehabilitation"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="10dp"
+        android:paddingTop="50dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="10dp"
+        android:stateListAnimator="@null"
+        android:text="復健\n紀錄"
+        android:textColor="#46596e"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/FAQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Chat"
+        android:layout_toRightOf="@id/Record"
+        android:background="@drawable/button_blue"
+        android:paddingLeft="85dp"
+        android:paddingTop="85dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:stateListAnimator="@null"
+        android:text="FAQ"
+        android:textColor="#46596e"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

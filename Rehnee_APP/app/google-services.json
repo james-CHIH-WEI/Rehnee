@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "480963538424",
+    "firebase_url": "https://rehnee-54835.firebaseio.com",
+    "project_id": "rehnee-54835",
+    "storage_bucket": "rehnee-54835.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480963538424:android:e3de0e84e3de05bd",
+        "android_client_info": {
+          "package_name": "com.example.rehnee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480963538424-n7pd0t01uu67ehu0iil64hl7fce07pj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rehnee",
+            "certificate_hash": "effef8601a58bf12abd6f3e5563be17392f02d89"
+          }
+        },
+        {
+          "client_id": "480963538424-onfje5ar5vp8f10f73ehbcuemdfigcg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcO3W3kM9T_dmOS9XKfrHEG7M-DPmGNDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480963538424-onfje5ar5vp8f10f73ehbcuemdfigcg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
